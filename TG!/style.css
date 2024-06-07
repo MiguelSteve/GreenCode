@@ -1,0 +1,584 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*--------------------------------------------------TELA PRINCIPAL-----------------------------------------------------------*/
+
+.tela-principal{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.header-2{
+    /*centralizar os botoes no menu*/
+    text-align: center;
+    height: 55px;
+    width: 100%;
+    /*colocar a borda*/
+    border-bottom: 3px solid #efefef;
+}
+.menu{
+    padding-left: 23%;
+    height: 150px;
+    margin: 0 auto;
+}
+.menu ul li {
+    padding-top: 53px;
+    display: inline-block;
+    color: #21572dcc;
+    /*atribuir espaco entre as palavras*/
+    margin-left: 15px;
+}
+/*tag do link*/
+.menu ul li a{
+    color: #21572dcc;
+    /*remover o sublinhado (aspecto de link)*/
+    text-decoration: none;
+    /*distancia entre dois campos*/
+    margin: 30px 20px;
+    /*tamanho da fonte*/
+    font-size: 30px;
+    /*deixar as letras maiusculas*/
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    /*remover o sublinhado (aspecto de link)*/
+    text-decoration: underline #4c8124a9;
+    transition: 1s;
+}
+.menu{
+    padding-left: 23%;
+    height: 200px;
+}
+.menu, .div-logout{
+    display: inline-block;
+}
+.div-logout{
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 115px;
+}
+.div-logout img{
+    width: 55px;
+}
+.div-logout h5{
+    font-size: 18;
+    color: #4c8124;
+    margin: 0 auto;
+}
+.menu a{
+    font-size: 25px;
+    color: #284611;
+}
+.menu input[type="button"]{
+    border: 0px;
+    width: 200px;
+    height: 43px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #325c12;
+    /*cor da letra*/
+    color: white;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+/*efeitos do botao*/
+.menu input[type="button"]:hover{
+    background-color: #ffffff3a;
+    color: #4c8124;
+    border:solid 3px #4c8124;
+}
+.cadastrePlanta{
+    height: 225px;
+    width: 450px;
+    padding-left: 70%;
+    padding-top: 170px;
+}
+.cadastrePlanta input[type="button"]{
+    border:solid 3px;
+    width: 350px;
+    height: 80px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #21572d81;
+    /*cor da letra*/
+    color: white;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 20px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+.cadastrePlanta button{
+    border:solid 3px;
+    width: 350px;
+    height: 80px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #21572d81;
+    /*cor da letra*/
+    color: white;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 20px;
+}
+/*efeitos do botao*/
+.cadastrePlanta input[type="button"]:hover{
+    background-color: #0d1e11cc;
+        /*ao clicar ele muda a cor lentamente*/
+        transition: 1s;
+}
+.menu2{
+    padding-top: 5%;
+    padding-left: 13%;
+    height: 350px;
+}
+.menu2 input[type="button"]{
+    /*distancia entre dois campos*/
+    margin: 30px 20px;
+    border:solid 3px #4c8124;
+    width: 410px;
+    height: 85px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: white;
+    /*cor da letra*/
+    color: #4c8124;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+.menu2 input[type="button"]:hover{
+    color: white;
+    background-color: #4c8124;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 0.5s;
+}
+.icons{
+    padding-left: 0%;
+}
+.icons img{
+    margin: 0px 177px;
+
+}
+.rodape{
+    background-color: #284611;
+    height: 250px;
+    width: 100%;
+}
+.rodape, .list-pag{
+    display: inline-block;
+}
+.rodape img{
+    height: 80px;
+    margin: 0px 277px;
+}
+.rodape{
+
+    height: 200px;
+    margin: 0 auto;
+    color: white;
+}
+.rodape ul li {
+    color: #284611;
+    /*atribuir espaco entre as palavras*/
+}
+/*tag do link*/
+.rodape ul li a{
+    color: #ffffffcc;
+    /*remover o sublinhado (aspecto de link)*/
+    text-decoration: none;
+    /*tamanho da fonte*/
+    font-size: 18px;
+}
+.textoBtns{
+    height: 400px;
+    background-color: #ffffff;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    font-size: 17px;
+}
+.txtMonitoramento,.txtPlanta,.txtRegistro{
+    display: inline-block;
+}
+/*alinhar as divs*/
+.txtMonitoramento{
+    height: 400px;
+    width: 20%;
+    margin: 0px 55px;
+}
+.txtPlanta{
+    height: 400px;
+    width: 20%;
+    margin: 0px 55px;
+}
+.txtRegistro{
+    height: 400px;
+    width: 20%;
+    margin: 0px 55px;
+}
+/*--------------------------------------------------TELA PLANTA-----------------------------------------------------------*/
+.body-planta{
+    margin: 0 auto;
+}
+.div-painel-planta{
+    
+    height: 250px;
+    background-color: #284611;
+}
+.btnExcluir{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.705);
+    border: 0px;
+}
+/*--------------------------------------------------TELA REGISTRO-----------------------------------------------------------*/
+.tb-registro{
+        margin: 0 auto;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    tr:nth-child(even) {
+        background-color: #4c81246c;
+    }
+    tr:hover {
+        background-color: #4c8124b2;
+    }
+/*--------------------------------------------------TELA PERFIL-----------------------------------------------------------*/
+.body-perfil{
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.div-painel-perfil{
+    text-align: center;
+    padding-top: 5%;
+    width: 50%;
+}
+.div-painel-perfil img{
+    width: 230px;
+    border-radius: 1000px;
+    width: 200px;
+    height: 200px;
+}
+.div-painel-perfil h1{
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+}
+.div-painel-perfil h5{
+    font-size: 25px;
+    color: white;
+}
+.div-info-perfil{
+    padding-top: 15%;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+form input[type=password]{
+    width: 30%;
+    font-size: 18px;
+    color: #1c330b;
+    height: 35px;
+    border:3px solid #4c8124;
+    padding-left: 10px;
+    /*distancia entre dois campos*/
+    margin: 10px 0;
+    border-radius: 20px;
+}
+.div-painel-perfil,.div-info-perfil{
+    display: inline-block;
+}
+.div-nome-email{
+    width: 250px;
+    padding-left: 27%;
+    text-align: left;
+    inline-size: auto;
+}
+.div-voltar{
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+.voltar{
+    border: 0px;
+    width: 200px;
+    height: 43px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: #4c8124;
+    border:solid 3px #ffffff;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+.voltar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*efeitos do botao*/
+.voltar:hover{
+    background: #325c1273;
+    transition: 1s;
+}
+.btn-mudar-senha{
+    border: 0px;
+    width: 430px;
+    height: 47px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #325c12;
+    /*cor da letra*/
+    color: white;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+/*efeitos do botao*/
+.btn-mudar-senha:hover{
+    background-color: #ffffff3a;
+    color: #4c8124;
+    border:solid 3px #4c8124;
+}
+.btn-senha{
+    padding-top: 5%;
+}
+
+/*--------------------------------------------------TELA CADAS PLANTA-----------------------------------------------------------*/
+.body-planta{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.form-cadas-planta{  
+    width: 500px;
+    /*espacamento interno de 10px*/
+    margin-top: 180px;
+    margin-left: 265px;
+}
+.body-planta h1{
+    font-size: 40px;
+    text-align: center;
+    color: #21572dcc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-cadas-planta input[type=text],
+.form-cadas-planta input[type=date]{
+    width:100%;
+    height: 35px;
+    border:1px solid #4c8124;
+    padding-left: 10px;
+    /*distancia entre dois campos*/
+    margin: 10px 0;
+    border-radius: 20px;
+    /*NOVO QUE EU ADICIONEI, PARA DAR UM PEQUENO PROBLEMA NO SELECIONAR PLANTA, 
+      SÓ SE VOCÊ CLICAR NA SETA DO SELECIONE DUAS VEZES ELE FICA DE OUTRA COR,
+      ENTÃO NÃO SEI SE DEVEMOS MANTER*/
+    outline: 10;
+}
+/*clicar sobre o campo a borda ficar verde*/
+.form-cadas-planta input[type=text]:focus{
+    outline: 10;
+}
+.body-planta input,label{
+    display: block;
+    width: 100%;
+}
+/*select*/
+.form-cadas-planta select{
+    width: 55%;
+    height: 35px;
+    background-color: white;
+    border:1px solid #4c8124;
+    padding-left: 10px;
+    /*distancia entre dois campos*/
+    margin: 10px 0;
+    border-radius: 20px;
+}
+/*botao*/
+.form-cadas-planta input[type="submit"]{
+    margin-top: 45px;
+    background-color: #21572dcc;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+.form-cadas-planta  input[type=submit]:hover{
+    background-color: #0d1e11cc;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 1s;
+}
+#msgSucesso{
+    border:1px solid #4c8124;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/*botao do dialog (mensagem de aviso)*/
+#msgSucesso input[type="button"]{
+    margin-top: 45px;
+    background-color: #21572dcc;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+#msgSucesso input[type=button]:hover{
+    background-color: #0d1e11cc;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 1s;
+}
+#msgSucesso a{
+    text-decoration: none;
+}
+.div-cadas-planta-aviso{
+    color: red;
+}
+
+/*--------------------------------------------------TELA CADAS USUARIO-----------------------------------------------------------*/
+
+.body-usuario{
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+
+}
+
+.form-cadas-usuario{  
+
+    width: 500px;
+
+    /*espacamento interno de 10px*/
+
+    margin-top: 180px;
+
+    margin-left: 265px;
+
+}
+
+.body-usuario h1{
+
+    font-size: 40px;
+
+    text-align: center;
+
+    color: #21572dcc;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form-cadas-usuario input[type=text]{
+
+    width:100%;
+
+    height: 35px;
+
+    border:1px solid #4c8124;
+
+    padding-left: 10px;
+
+    color: #1c330b;
+
+    outline: 10;
+
+    /*distancia entre dois campos*/
+
+    margin: 4px 0;
+
+    border-radius: 20px;
+
+}
+
+/*clicar sobre o campo a borda ficar verde*/
+
+
+.body-usuario input,label{
+
+    display: block;
+
+    width: 100%;
+
+}
+
+/*botao*/
+
+.form-cadas-usuario input[type="submit"]{
+
+    margin-top: 45px;
+
+    background-color: #21572dcc;
+
+    font-size: 18px;
+
+    color: #fff;
+
+    border: none;
+
+    height: 40px;
+
+    cursor: pointer;
+
+    border-radius: 30px;
+
+    /*ao clicar ele muda a cor lentamente*/
+
+    transition: 1s;
+
+}
+
+.div-cadas-usuario input[type=password]{
+
+    width: 100%;
+
+    font-size: 18px;
+
+    color: #1c330b;
+
+    height: 35px;
+
+    border:1px solid #4c8124;
+
+    padding-left: 10px;
+
+    /*distancia entre dois campos*/
+
+    margin: 4px 0;
+
+    border-radius: 20px;
+
+}
+/*efeitos do botao*/
+.form-cadas-usuario  input[type=submit]:hover{
+
+    background-color: #0d1e11cc;
+
+}

@@ -1,0 +1,372 @@
+/*--------------------------------------------------TELA ECOMMERCE-----------------------------------------------------------*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------celular e tablet-----------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .menu {
+        height: 65px;
+    }
+
+    /*tag do link*/
+    .menu a {
+        margin-top: 10px;
+        color: #FFFFFF;
+        /*remover o sublinhado (aspecto de link)*/
+        text-decoration: none;
+        /*distancia entre dois campos*/
+        margin: 1px 2px;
+        /*tamanho da fonte*/
+        font-size: 10px;
+        /*deixar as letras maiusculas*/
+        text-transform: uppercase;
+        margin-left: 2px;
+    }
+
+    .btns-menu {
+        padding-top: 20px;
+        padding-left: 30%;
+    }
+
+    .menu input[type="button"] {
+        border: 0px;
+        height: 19px;
+        /*mostrar para usuario que e clicavel*/
+        cursor: pointer;
+        /*fundo do botao*/
+        background: #325c12;
+        /*cor da letra*/
+        color: white;
+        /*botao arrendondado*/
+        border-radius: 30px;
+        font-size: 15px;
+        margin: 2px;
+
+    }
+
+    /*efeitos do botao*/
+    .menu input[type="button"]:hover {
+        background-color: #ffffff3a;
+        color: #4c8124;
+        border: solid 3px #4c8124;
+    }
+
+    .painel {
+        height: 200px;
+    }
+
+    .painel input[type="button"] {
+        margin: 1px 5px;
+        border: solid 2px;
+        width: 150px;
+        height: 28px;
+        /*mostrar para usuario que e clicavel*/
+        cursor: pointer;
+        /*fundo do botao*/
+        background: #21572d81;
+        /*cor da letra*/
+        color: white;
+        font-size: 15px;
+        /*botao arrendondado*/
+        border-radius: 20px;
+    }
+
+    /*efeitos do botao*/
+    .painel input[type="button"]:hover {
+        background-color: #0d1e11cc;
+        /*ao clicar ele muda a cor lentamente*/
+        transition: 1s;
+    }
+
+    .btns-painel {
+        padding-top: 75px;
+        text-align: center;
+    }
+
+    .menu1 {
+        height: 200px;
+    }
+
+    .menu3 {
+        height: 200px;
+    }
+
+    .rodape {
+        height: 150px;
+        background-color: #284611;
+        margin: 0%;
+    }
+
+    .rodape h3 {
+        padding-top: 10%;
+        margin: 0%;
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    .rodape img {
+        height: 20px;
+        text-align: center;
+    }
+
+    .rodape li {
+        margin: 0%;
+        color: #284611;
+        /*atribuir espaco entre as palavras*/
+    }
+
+    /*tag do link*/
+    .rodape li a {
+        margin: 0%;
+        /*remover o sublinhado (aspecto de link)*/
+        text-decoration: none;
+        /*tamanho da fonte*/
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+
+    .rodape-marca {
+        padding-left: 13%;
+    }
+
+    .rodape-links {
+        padding-left: 13%;
+    }
+
+    .rodape-marca,
+    .rodape-links {
+        display: inline-block;
+    }
+    .m01{
+        background-color: antiquewhite;
+    }
+    .m03{
+        background-color: antiquewhite;
+    }
+    .m01, .m02, .m03 {
+        display: inline-block;
+    }
+
+
+}
+
+/*--------------------------------------------------notebook-----------------------------------------------------------*/
+
+@media (min-width: 768px) {
+
+    .menu {
+        height: 65px;
+    }
+
+    /*tag do link*/
+    .menu a {
+        margin-top: 10px;
+        color: #FFFFFF;
+        /*remover o sublinhado (aspecto de link)*/
+        text-decoration: none;
+        /*distancia entre dois campos*/
+        margin: 1px 25px;
+        /*tamanho da fonte*/
+        font-size: 10px;
+        margin-left: 2px;
+
+    }
+
+    .btns-menu {
+        padding-top: 20px;
+        padding-left: 55%;
+    }
+
+    .menu input[type="button"] {
+        border: 0px;
+        height: 29px;
+        width: 150px;
+        /*mostrar para usuario que e clicavel*/
+        cursor: pointer;
+        /*fundo do botao*/
+        background: #325c12;
+        /*cor da letra*/
+        color: white;
+        /*botao arrendondado*/
+        border-radius: 30px;
+        font-size: 20px;
+        margin: 2px;
+
+    }
+
+    /*efeitos do botao*/
+    .menu input[type="button"]:hover {
+        background-color: #ffffff3a;
+        color: #4c8124;
+        border: solid 3px #4c8124;
+    }
+
+    .painel {
+        height: 450px;
+    }
+
+    .painel input[type="button"] {
+        margin: 5px 15px;
+        border: solid 3px;
+        width: 300px;
+        height: 57px;
+        /*mostrar para usuario que e clicavel*/
+        cursor: pointer;
+        /*fundo do botao*/
+        background: #21572d81;
+        /*cor da letra*/
+        color: white;
+        font-size: 30px;
+        /*botao arrendondado*/
+        border-radius: 20px;
+    }
+
+    /*efeitos do botao*/
+    .painel input[type="button"]:hover {
+        background-color: #0d1e11cc;
+        /*ao clicar ele muda a cor lentamente*/
+        transition: 1s;
+    }
+
+    .btns-painel {
+        padding-top: 28%;
+    }
+
+    .txt-painel {
+        padding-top: 5%;
+        color: #FFFFFF;
+        text-align: left;
+        margin-left: 3%;
+        margin-right: 4%;
+        width: 45%;
+        float: left;
+    }
+    
+    .txt-painel h3{
+        font-size: 25px;
+    }
+
+    .txt-painel,.btns-painel {
+        display: inline-block;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .menu1 {
+        margin-top: 100px;
+        height: 500px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .menu2 {
+        height: 400px;
+        color: white;
+        margin-left: 850px;
+    }
+    .topics{
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #4c8124;
+        width: 400px;
+        height: 50px;
+        border-radius: 35px;
+    }
+
+    .menu3 {
+        margin-top: 80px;
+        text-align: center;
+    }
+    .estruturaEstufa{
+        margin-top: 55px;
+        margin-left: 350px;
+        margin-bottom: 55px;
+        width: 1400px;
+        height: 700px;
+        background-image: url('../images/sistemaEstufa.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .rodape {
+        height: 150px;
+        background-color: #284611;
+        margin: 0%;
+    }
+
+    .rodape h3 {
+        padding-top: 10%;
+        margin: 0%;
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    .rodape img {
+        height: 20px;
+        text-align: center;
+    }
+
+    .rodape li {
+        margin: 0%;
+        color: #284611;
+        /*atribuir espaco entre as palavras*/
+    }
+
+    /*tag do link*/
+    .rodape li a {
+        margin: 0%;
+        /*remover o sublinhado (aspecto de link)*/
+        text-decoration: none;
+        /*tamanho da fonte*/
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+
+    .rodape-marca {
+        padding-left: 13%;
+    }
+
+    .rodape-links {
+        padding-left: 13%;
+    }
+
+    .rodape-marca,
+    .rodape-links {
+        display: inline-block;
+    }
+    .m01{
+        background-color: white;
+        height: 100%;
+        width: 350px;
+    }
+    .m02{
+        background-color: white;
+        height: 100%;
+        width: 350px;
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+    .m01, .m02{
+        display: inline-block;
+
+    }
+    .img01 {
+        margin-left: 55px;
+        width: 350px;
+        height: 380px;
+        background-image: url('../images/estufa01.png');
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+}

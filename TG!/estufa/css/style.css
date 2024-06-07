@@ -1,0 +1,922 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*--------------------------------------------------TELA PRINCIPAL-----------------------------------------------------------*/
+
+.tela-principal{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.header-2{
+    /*centralizar os botoes no menu*/
+    text-align: center;
+    height: 55px;
+    width: 100%;
+    /*colocar a borda*/
+    border-bottom: 3px solid #efefef;
+}
+.menu{
+    padding-left: 23%;
+    height: 150px;
+    margin: 0 auto;
+}
+.menu ul li {
+    padding-top: 53px;
+    display: inline-block;
+    color: #FFFFFF;
+    /*atribuir espaco entre as palavras*/
+    margin-left: 142px;
+}
+/*tag do link*/
+.menu ul li a{
+    color: #FFFFFF;
+    /*remover o sublinhado (aspecto de link)*/
+    text-decoration: none;
+    /*distancia entre dois campos*/
+    margin: 30px 20px;
+    /*tamanho da fonte*/
+    font-size: 30px;
+    /*deixar as letras maiusculas*/
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    /*remover o sublinhado (aspecto de link)*/
+    text-decoration: underline #4c8124a9;
+    transition: 1s;
+}
+.menu{
+    padding-left: 23%;
+    height: 200px;
+}
+.menu, .div-logout{
+    display: inline-block;
+}
+.div-logout{
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 115px;
+}
+.div-logout img{
+    width: 55px;
+}
+.div-logout h5{
+    font-size: 18;
+    color: #4c8124;
+    margin: 0 auto;
+}
+.menu a{
+    font-size: 25px;
+    color: #284611;
+}
+.menu input[type="button"]{
+    border: 0px;
+    width: 200px;
+    height: 43px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #325c12;
+    /*cor da letra*/
+    color: white;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+/*efeitos do botao*/
+.menu input[type="button"]:hover{
+    background-color: #ffffff3a;
+    color: #4c8124;
+    border:solid 3px #4c8124;
+}
+.cadastrePlanta{
+    height: 225px;
+    width: 450px;
+    padding-left: 70%;
+    padding-top: 170px;
+}
+.cadastrePlanta input[type="button"]{
+    border:solid 3px;
+    width: 350px;
+    height: 80px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #21572d81;
+    /*cor da letra*/
+    color: white;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 20px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+.cadastrePlanta button{
+    border:solid 3px;
+    width: 350px;
+    height: 80px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #21572d81;
+    /*cor da letra*/
+    color: white;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 20px;
+}
+/*efeitos do botao*/
+.cadastrePlanta input[type="button"]:hover{
+    background-color: #0d1e11cc;
+        /*ao clicar ele muda a cor lentamente*/
+        transition: 1s;
+}
+.menu2{
+    padding-top: 5%;
+    padding-left: 15%;
+    height: 350px;
+}
+.menu2 input[type="button"]{
+    /*distancia entre dois campos*/
+    margin: 30px 20px;
+    border:solid 3px #4c8124;
+    width: 410px;
+    height: 85px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: white;
+    /*cor da letra*/
+    color: #4c8124;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+.menu2 input[type="button"]:hover{
+    color: white;
+    background-color: #4c8124;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 0.5s;
+}
+.menu2, .form-atualiza-dados{
+    display: inline-block;
+}
+.form-atualiza-dados input[type="submit"]{
+    /*distancia entre dois campos*/
+    margin: 30px 20px;
+    border:solid 3px #4c8124;
+    width: 410px;
+    height: 85px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: white;
+    /*cor da letra*/
+    color: #4c8124;
+    font-size: 30px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+
+}
+.form-atualiza-dados input[type="submit"]:hover{
+    color: white;
+    background-color: #4c8124;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 0.5s;
+
+}
+.icons{
+    padding-left: 0%;
+}
+.icons img{
+    margin: 0px 177px;
+
+}
+.rodape{
+    background-color: #284611;
+    height: 250px;
+    width: 100%;
+}
+.rodape, .list-pag{
+    display: inline-block;
+}
+.rodape img{
+    height: 80px;
+    margin: 0px 277px;
+}
+.rodape{
+
+    height: 200px;
+    margin: 0 auto;
+    color: white;
+}
+.rodape ul li {
+    color: #284611;
+    /*atribuir espaco entre as palavras*/
+}
+/*tag do link*/
+.rodape ul li a{
+    color: #ffffffcc;
+    /*remover o sublinhado (aspecto de link)*/
+    text-decoration: none;
+    /*tamanho da fonte*/
+    font-size: 18px;
+}
+.textoBtns{
+    height: 400px;
+    background-color: #ffffff;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    font-size: 17px;
+}
+.txtMonitoramento,.txtPlanta,.txtRegistro{
+    display: inline-block;
+}
+/*alinhar as divs*/
+.txtMonitoramento{
+    height: 400px;
+    width: 20%;
+    margin: 0px 55px;
+}
+.txtPlanta{
+    height: 400px;
+    width: 20%;
+    margin: 0px 55px;
+}
+.txtRegistro{
+    height: 400px;
+    width: 20%;
+    margin: 0px 55px;
+}
+.tooltip2{
+    position: relative;
+    margin-left: 200px;
+    float: top;
+    border-radius:15px;
+    display: inline-block; 
+
+  }
+
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 220px;
+    background-color: #4C81241A;
+    color: #284611;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 20px 100px 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top: -120%;
+      left: 70%;
+      transform: translate(0, -40%);
+    
+  }
+.tooltip2 img{
+    width: 50px;
+
+}
+  .tooltip2:hover .tooltiptext2{
+    visibility: visible;
+    opacity: 1;
+  }
+
+/*--------------------------------------------------TELA PLANTA-----------------------------------------------------------*/
+.body-planta{
+    margin: 0 auto;
+}
+.div-painel-planta{
+    
+    height: 250px;
+    background-color: #284611;
+}
+.btnExcluir{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.705);
+    border: 0px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 180px;
+    margin-top: 8px;
+    border-radius:15px;
+
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: #4C81241A;
+    color: #284611;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 20px 152px 20px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top: -150%;
+      left: 265%;
+      transform: translate(0, -40%);
+    
+  }
+.tooltip img{
+    width: 35px;
+
+}
+  .tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+  }
+
+/*--------------------------------------------------TELA PERFIL-----------------------------------------------------------*/
+.body-perfil{
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.div-painel-perfil{
+    text-align: center;
+    padding-top: 5%;
+    width: 50%;
+}
+.div-painel-perfil img{
+    width: 230px;
+    border-radius: 100px;
+    /*deixa a imagem proporcional*/
+    aspect-ratio: 1/1;
+    width: 200px;
+}
+.div-painel-perfil h1{
+    font-size: 45px;
+    color: #1c330b;
+    text-transform: uppercase;
+}
+.div-painel-perfil h5{
+    font-size: 25px;
+    color: #1c330b;
+}
+.div-info-perfil{
+    padding-top: 15%;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+form input[type=password]{
+    width: 30%;
+    font-size: 18px;
+    color: #1c330b;
+    height: 35px;
+    border:3px solid #4c8124;
+    padding-left: 10px;
+    /*distancia entre dois campos*/
+    margin: 10px 0;
+    border-radius: 20px;
+}
+.div-painel-perfil,.div-info-perfil{
+    display: inline-block;
+}
+.div-nome-email{
+    width: 250px;
+    padding-left: 27%;
+    text-align: left;
+    inline-size: auto;
+}/*
+.div-voltar{
+    padding-top: 25%;
+    padding-bottom: 10%;
+}*/
+.voltar{
+    border: 0px;
+    width: 200px;
+    height: 43px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: #4c8124;
+    border:solid 3px #325c12;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    /*ao clicar ele muda a cor lentamente*/
+
+}
+.voltar a{
+    text-decoration: none;
+    color: #325c12;
+}
+/*efeitos do botao*/
+.voltar:hover{
+    background: #325c1273;
+    transition: 1s;
+}
+.btn-mudar-senha{
+    border: 0px;
+    width: 430px;
+    height: 47px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #325c12;
+    /*cor da letra*/
+    color: white;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    /*ao clicar ele muda a cor lentamente*/
+    margin-bottom: 20px;
+
+}
+/*efeitos do botao*/
+.btn-mudar-senha:hover{
+    background-color: #ffffff3a;
+    color: #4c8124;
+    border:solid 3px #4c8124;
+}
+.btn-senha{
+    padding-top: 5%;
+}
+.senha{
+    font-size: 25px;
+}
+#msgSucessoPerfil{
+    border:1px solid #4c8124;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+#msgSucessoPerfil img{
+    width: 96px;
+}
+/*botao do dialog (mensagem de aviso)*/
+#msgSucessoPerfil input[type="button"]{
+    margin-top: 45px;
+    background-color: #21572dcc;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 85%;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+#msgSucessoPerfil input[type=button]:hover{
+    background-color: #0d1e11cc;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 1s;
+}
+#msgSucessoPerfil a{
+    text-decoration: none;
+}
+.div-senha{
+    color: rgb(119, 11, 11);
+}
+
+/*--------------------------------------------------TELA CADAS PLANTA-----------------------------------------------------------*/
+.body-planta{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.form-cadas-planta{  
+    width: 500px;
+    /*espacamento interno de 10px*/
+    margin-top: 180px;
+    margin-left: 265px;
+}
+.body-planta h1{
+    font-size: 40px;
+    text-align: center;
+    color: #21572dcc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-cadas-planta input[type=text],
+.form-cadas-planta input[type=date]{
+    width:100%;
+    height: 35px;
+    border:1px solid #4c8124;
+    padding-left: 10px;
+    /*distancia entre dois campos*/
+    margin: 10px 0;
+    border-radius: 20px;
+    /*NOVO QUE EU ADICIONEI, PARA DAR UM PEQUENO PROBLEMA NO SELECIONAR PLANTA, 
+      SÓ SE VOCÊ CLICAR NA SETA DO SELECIONE DUAS VEZES ELE FICA DE OUTRA COR,
+      ENTÃO NÃO SEI SE DEVEMOS MANTER*/
+    outline: 10;
+}
+/*clicar sobre o campo a borda ficar verde*/
+.form-cadas-planta input[type=text]:focus{
+    outline: 10;
+}
+.body-planta input,label{
+    display: block;
+    width: 100%;
+}
+/*select*/
+.form-cadas-planta select{
+    width: 55%;
+    height: 35px;
+    background-color: white;
+    border:1px solid #4c8124;
+    padding-left: 10px;
+    /*distancia entre dois campos*/
+    margin: 10px 0;
+    border-radius: 20px;
+}
+/*botao*/
+.form-cadas-planta input[type="submit"]{
+    margin-top: 45px;
+    background-color: #21572dcc;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+.form-cadas-planta  input[type=submit]:hover{
+    background-color: #0d1e11cc;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 1s;
+}
+#msgSucesso{
+    border:1px solid #4c8124;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/*botao do dialog (mensagem de aviso)*/
+#msgSucesso input[type="button"]{
+    margin-top: 45px;
+    background-color: #21572dcc;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+/*efeitos do botao*/
+#msgSucesso input[type=button]:hover{
+    background-color: #0d1e11cc;
+    /*ao clicar ele muda a cor lentamente*/
+    transition: 1s;
+}
+#msgSucesso a{
+    text-decoration: none;
+}
+.div-cadas-planta-aviso{
+    color: red;
+}
+/*--------------------------------------------------TELA CADAS USUARIO-----------------------------------------------------------*/
+
+.body-usuario{
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+
+}
+
+.form-cadas-usuario{  
+
+    width: 500px;
+
+    /*espacamento interno de 10px*/
+
+    margin-top: 135px;
+
+    margin-left: 265px;
+
+}
+
+.body-usuario h1{
+
+    font-size: 40px;
+
+    text-align: center;
+
+    color: #21572dcc;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form-cadas-usuario input[type=text]{
+
+    width:100%;
+
+    height: 35px;
+
+    border:1px solid #4c8124;
+
+    padding-left: 10px;
+
+    color: #1c330b;
+
+    outline: 10;
+
+    /*distancia entre dois campos*/
+
+    margin: 4px 0;
+
+    border-radius: 20px;
+
+}
+
+/*clicar sobre o campo a borda ficar verde*/
+
+
+.body-usuario input,label{
+
+    display: block;
+
+    width: 100%;
+
+}
+
+/*botao*/
+
+.form-cadas-usuario input[type="submit"]{
+
+    margin-top: 45px;
+
+    background-color: #21572dcc;
+
+    font-size: 18px;
+
+    color: #fff;
+
+    border: none;
+
+    height: 40px;
+
+    cursor: pointer;
+
+    border-radius: 30px;
+
+    /*ao clicar ele muda a cor lentamente*/
+
+    transition: 1s;
+    font-size: 20px;
+
+}
+
+.div-cadas-usuario input[type=password]{
+
+    width: 100%;
+
+    font-size: 18px;
+
+    color: #1c330b;
+
+    height: 35px;
+
+    border:1px solid #4c8124;
+
+    padding-left: 10px;
+
+    /*distancia entre dois campos*/
+
+    margin: 4px 0;
+
+    border-radius: 20px;
+
+}
+/*efeitos do botao*/
+.form-cadas-usuario  input[type=submit]:hover{
+
+    background-color: #0d1e11cc;
+
+}
+
+.div-cadas-usuario-aviso{
+    color: red;
+}
+
+
+/*--------------------------------------------------TELA MONITORA-----------------------------------------------------------*/
+.div-monitora{
+    height: 159px;
+    width: 450px;
+    padding-left: 80%;
+}
+.div-monitora-sobre-planta{
+    width: 100%;
+    height: 300px;
+    background-color: #742ea38a;
+
+}
+.div-monitora-temp{
+    width: 590px;
+    height: 400px;
+    margin-right: 80px;
+}
+.div-monitora-umidade{
+    width: 590px;
+    height: 400px;
+}
+.div-info-planta, .div-monitora-all{
+    display: inline-block;
+}
+.div-info-planta{
+    background-color: #00000007;
+    height: 750px;
+    float: left;
+    width: 480px;
+    text-align: center;
+}
+.div-monitora-temp, .div-monitora-umidade{
+    display: inline-block;
+}
+.div-monitora-all{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.div-info-planta [type="submit"]{
+    border: 0px;
+    width: 330px;
+    height: 43px;
+    /*mostrar para usuario que e clicavel*/
+    cursor: pointer;
+    /*fundo do botao*/
+    background: #325c12;
+    /*cor da letra*/
+    color: white;
+    font-size: 25px;
+    /*botao arrendondado*/
+    border-radius: 30px;
+    margin-top: 80px;
+}
+/*efeitos do botao*/
+.div-info-planta [type="submit"]:hover{
+    background-color: #ffffff3a;
+    color: #4c8124;
+    border:solid 3px #4c8124;
+    transition: 0.5s;
+}
+.div-graficos{
+    margin-top: 130px;
+}
+.div-foto-planta img{
+    margin-top: 35px;
+    border-radius: 100px;
+    /*deixa a imagem proporcionada*/
+    aspect-ratio: 1/1;
+    width: 200px;
+}
+.div-info-planta h1{
+    color: #1c330b;
+}
+.div-info-planta h5{
+    font-size: 20px;
+    color: #1c330b;
+}
+/*--------------------------------------------------TELA REGISTRO-----------------------------------------------------------*/
+.body-registro{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.div-registra-cabecalho{
+    height: 155px;
+    display: flex;
+    text-align: center;
+}
+.div-registra-cabecalho img{
+    height: 67px;
+    margin-top: 45px;
+}
+.div-registra-cabecalho a{
+    font-size: 28px;
+    color: white;
+    margin-top: 60px;
+}
+.div-registra-cabecalho a, 
+.div-registra-cabecalho img{
+    display: inline-block;
+    margin-left: 25px;
+}
+.div-registro{
+    margin-top: 37  px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/*ESTILIZAR A TABELA*/
+.div-registro table{
+    width: 75%;
+    border:1px solid #4c8124;
+}
+th{
+    cursor: pointer;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #4c812436;
+}
+tr:hover {
+    background-color: #4c81249a;
+}
+.div-paginas{
+    margin-top: 5px;
+    display: flex;
+    padding-left: 735px;
+}
+.div-paginas a{
+    font-size: 20px;
+    color: #325c12;
+}
+.div-paginas img{
+    width: 25px;
+}
+.div-paginas a, .div-paginas img{
+    display: inline-block;
+}
+.a-posterior{
+    margin-left: 250px;
+}
+/*--------------------------------------------------BTN VOLTAR-----------------------------------------------------------*/
+.div-voltar {
+    margin-top: 15px;
+}
+
+.div-voltar img {
+    width: 40px;
+    /*alinha verticalmente*/
+    vertical-align: middle;
+}
+
+.div-voltar a {
+    color: #325c12;
+    display: inline-block; 
+    vertical-align: middle; 
+    font-size: 20px;
+}
+/*-------------------------------------------------TELA LISTAR ESTUFA-----------------------------------------------------------*/
+.div-listar-estufa button {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 48%;
+    background-color: #21572dcc;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}   
+/*efeitos do botao*/
+.div-listar-estufa button:hover{
+    background-color: #ffffff3a;
+    color: #4c8124;
+    border:solid 3px #4D8124;
+    transition: 0.5s;
+}
+.body-listar-estufa{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #8AA26E;
+}
+.body-listar-estufa h1{
+    text-align: center;
+    font-size: 40px;
+    color: #21572dcc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div-principal-listar-estufa{
+    background-color: white;
+    width: 94%;
+    height: 100%;
+    margin-top: 3%;
+    padding-bottom: 1.5%;
+}

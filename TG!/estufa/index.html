@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ecommerce.css">
+    <title>GreenCode</title>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="btns-menu">
+            <a href=""><input type="button" value="Sobre Nós" name="btnPerfil" id="btns"></a>
+            <a href=""><input type="button" value="Contato" name="btnPerfil" id="btns"></a>
+            <a href="login.php"><input type="button" value="Entrar" name="btnPerfil" id="btns"></a>
+        </div>
+    </div>
+
+
+    <div class="painel" style="background-image: url('images/folhas.jpg'); background-attachment: fixed;">
+        <div class="txt-painel">
+            <h1>Monitore suas plantas em tempo real!</h1>
+            <h3>Uma estufa inteligente, perfeita para aqueles que não têm tempo para cuidar de suas plantas, que oferece uma irrigação automática, refrigeração e iluminação ultravioleta, tornando o cultivo mais prático e eficaz!</h3>
+        </div>
+        <div class="btns-painel">
+            <a href="#"><input type="button" value="Nossos Produtos" class="btns" onclick="redirect('#menu2')" name="btnPainel"></a>
+            <a href="cadasUsuario.php"><input type="button" value="Cadastre-se agora!" name="btnPainel" id="btns"></a>
+        </div>
+    </div>
+
+        <script>
+            function redirect(target) {
+                // Redireciona para a div especificada
+                window.location.href = window.location.pathname + target;
+            }
+        </script>
+
+    <div class="menu1">
+        <div class="title"><h3>Nossos Produtos</h3></div>
+        <div class="m01">
+            <h3>Estufa Inteligente</h3>
+            <div class="img01"></div>
+        </div>
+        <div class="m02">
+            <h3>Descrição</h3>
+            <div class="img02"></div>
+        </div>
+
+    </div>
+
+    <div class="menu2">
+        <div class="topics">
+            <h3>teste</h3>
+        </div>
+        <div class="topics">
+            <h3>teste</h3>
+        </div>
+        <div class="topics">
+            <h3>teste</h3>
+        </div>
+        <div class="topics">
+            <h3>teste</h3>
+        </div>
+    </div>
+
+
+    <div class="menu3">
+        <div class="title2">
+            <h3>Como que funciona?</h3>
+        </div>
+        <div class="estruturaEstufa"></div>
+    </div>
+    <div clsss="menu3"></div>
+
+    <div class="rodape">
+        <div class="rodape-marca">
+            <img src="fundoLogin/logoxx.png" alt="logo">
+        </div>
+        <div class="rodape-links">
+            <h3>Páginas</h3>
+            <li><a href="">Inscreva-se</a></li>
+            <li><a href="">Entrar</a></li>
+            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Contato</a></li>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
